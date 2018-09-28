@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #282c37;
+    color: #fff;
+}
+
+.header__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.header__title {
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+    font-size: 1.25rem;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav__item:not(:first-child) {
+    margin-left: 1.25rem;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: #f9690e;
+    text-decoration: underline;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio {
+    background-color: #9baec8;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0 auto;
+    max-width: 1170px;
+    padding-left: 0;
+    padding: 2em 4em;
+    /* padding-left: 1em;
+    padding-right: 1em; */
+}
+
+.projects__item {
+    /* flex-wrap: wrap; */
+    /* display: flex; */
+    flex-basis: 33%;
+    /* background-color: #fff; */
+    /* margin-top: 1rem; */
+    /* margin: 1rem; */
+    padding: 1rem;
+    /* max-width: 350px; */
+}
+
+.projects__image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figure {
+    padding: .25em;
+    background-color: #fff;
+    margin: 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+
+/* ABOUT */
+
+.about {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+
+.about-list {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-list__item {
+    line-height: 1.5;
+    padding: 1em;
+}
+
+
+/* // TODO MAKE THE PORTFOLIO A LI/FIGURE/IMAGE
+https://codepen.io/lottejackson/pen/PwvjPj
+http://www.lottejackson.com/learning/an-equal-height-grid-using-flexbox */
