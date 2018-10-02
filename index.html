@@ -6,26 +6,57 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://use.fontawesome.com/aadf7df22d.js"></script>
     </head>
     <body>
-        <div class="header">
+        <header class="header">
             <div class="header__container">
                 <h1 class="header__title">Don Hansen</h1>
-                <ul class="nav">
-                    <li class="nav__item"><a class="nav__link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
-                </ul>
+                <nav class="nav">
+                    <div class="nav__item">
+                        <a class="nav__link" href="#portfolio">Portfolio</a>
+                    </div>
+                    <div class="nav__item">
+                        <a class="nav__link" href="#about">About</a>
+                    </div>
+                    <div class="nav__item">
+                        <a class="nav__link" href="#contact">Contact</a>
+                    </div>
+                </nav>
             </div>
-        </div>
+        </header>
         <div class="portfolio" id="portfolio">
             <ul class="projects">
-                <li class="projects__item"><figure><img class="projects__image" src="images/apartment.jpg" /></figure></li>
-                <li class="projects__item"><figure><img class="projects__image" src="images/cat.jpg" /></figure></li>
-                <li class="projects__item"><figure><img class="projects__image" src="images/donut.jpg" /></figure></li>
-                <li class="projects__item"><figure><img class="projects__image" src="images/fog.jpg" /></figure></li>
-                <li class="projects__item"><figure><img class="projects__image" src="images/rock.jpg" /></figure></li>
-                <li class="projects__item"><figure><img class="projects__image" src="images/water.jpg" /></figure></li>
+                <li class="projects__item">
+                    <figure>
+                        <img class="projects__image" src="images/apartment.jpg" />
+                    </figure>
+                </li>
+                <li class="projects__item">
+                    <figure>
+                        <img class="projects__image" src="images/cat.jpg" />
+                    </figure>
+                </li>
+                <li class="projects__item">
+                    <figure>
+                        <img class="projects__image" src="images/donut.jpg" />
+                    </figure>
+                </li>
+                <li class="projects__item">
+                    <figure>
+                        <img class="projects__image" src="images/fog.jpg" />
+                    </figure>
+                </li>
+                <li class="projects__item">
+                    <figure>
+                        <img class="projects__image" src="images/rock.jpg" />
+                    </figure>
+                </li>
+                <li class="projects__item">
+                    <figure>
+                        <img class="projects__image" src="images/water.jpg" />
+                    </figure>
+                </li>
             </ul>
         </div>
         <div class="about" id="about">
@@ -56,5 +87,34 @@
                 </li>
             </ul>
         </div>
+        <footer class="footer">
+            <div class="footer-container">
+                <p class="footer__summary">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Vivamus odio dolor, consectetur non pharetra quis, iaculis eget odio. 
+                    Pellentesque habitant morbi tristique senectus et netus.
+                </p>
+                <div class="contact">
+                    <p class="contact__summary">Say Hello. I don't bite.</p>
+                    <div class="social">
+                        <a href="#">
+                            <i class="social__icon fa fa-facebook-square fa-2x"></i>
+                        </a>
+                        <a href="#">
+                            <i class="social__icon fa fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="#">
+                            <i class="social__icon fa fa-google-plus fa-2x"></i>
+                        </a>
+                        <a href="#">
+                            <i class="social__icon fa fa-instagram fa-2x"></i>
+                        </a>
+                        <a href="#">
+                            <i class="social__icon fa fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
